@@ -1,0 +1,123 @@
+/* 
+*========================================================================================
+
+?   PROJETO ->> Desenvolvimento WEB Full Stack: Minha Página Linkedin e Currículo
+?   OBJETIVO ->> Página para unir visualmente todas as etapas da busca de uma carreira
+?   no Linkedin, Entrevistas e Currículo.
+?   CRIAÇÃO E DESENVOLVIMENTO ->> Marcia Moreira
+?   DATA DA CRIAÇÃO ->> 18/01/2024
+?   GITHUB ->> https://github.com/Marcia-Moreira
+?   LINK WAKATIME ->> https://wakatime.com/@Marcia_Moreira
+?   LINKEDIN ->> https://www.linkedin.com/in/marciamoreiramm
+
+*======================================================================================== 
+*/
+
+* {
+    /* background-color: #FFF6; */
+    /* Não funciona */
+    justify-items: center;
+}
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    /* color: blue; */
+}
+
+div {
+    width: 150vh;
+    border: 5px solid;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 30px;
+}
+
+/* REVER */
+
+.menu_principal{
+    background-color: #DCCFE2;
+}
+.link_curriculo{
+    background-color: #DBD1DF;
+}
+
+.badge_distintivo{
+    background-color: #DBD5DC;
+}
+.nome_funcao{
+    background-color: #DAD7DA;
+}
+.linkedin_sobre{
+    background-color: #D9DAD6;
+}
+.linkedin_objetivo{
+    background-color: #D8DDD4;
+}
+.linkedin_carta_apresentacao{
+    background-color: #DBE0D0;
+}
+.linkedin_formacao{
+    background-color: #D7E3CE;
+}
+.linkedin_curso_especializacao{
+    background-color: #C3DECE;
+}
+.linkedin_bootcamp{
+    background-color: #C5DAD0;
+}
+.linkedin_projetos_sociais{
+    background-color: #C6D7D2;
+}
+.linkedin_idiomas{
+    background-color: #C8D3D4;
+}
+.linkedin_link_diplomas{
+    background-color: #CACFD7;
+}
+.skill_carreira_anterior{
+    background-color: #CBCBD9;
+}
+.skill_carreira_desenvolvedor{
+    background-color: #CDC8DB;
+}
+/* duas div para rever */
+/* ! */
+
+.hard_skill{
+    background-color: #CEC4DD;
+}
+.soft_skill{
+    background-color: #C3BBD9;
+}
+
+/*! EU PESSOA / MINHA HISTÓRIA/ COMO EU SOU */
+
+.eu_minha_historia{
+    background-color: #BFBED7;
+}
+.eu_hobbies{
+    background-color: #BEC3D6;
+}
+.eu_personalidade{
+    background-color: #BBC7D4;
+}
+.eu_ponto_positivo{
+    background-color: #BBCBD1;
+}
+.eu_ponto_negativo{
+    background-color: #B5CED0;
+}
+.eu_motivo_demissao{
+    background-color: #B2D4CF;
+}
+.tecnica_star{
+    background-color: #AFDBCC;
+}
+.cases_sucesso{
+    background-color: #DAD7DA
+}
+.desafios{
+    background-color: #D9DAD6;
+}
