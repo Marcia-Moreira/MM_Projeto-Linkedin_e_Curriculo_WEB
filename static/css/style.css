@@ -19,25 +19,93 @@
     justify-items: center;
 }
 
+.img_letreiro {
+    /* float: right; */
+    text-align: center;
+    border-color: gray;
+    width: 100%;
+}
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 12px;
-    /* color: blue; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 16px;
+    background-color: black;
+    width: 100%;
+
 }
 
 div {
-    width: 150vh;
-    border: 5px solid;
-    border-radius: 5px;
-    padding: 30px;
-    margin: 30px;
+    /* rever como colocar a largura responsiva */
+    /* width: 150vh; */
+    /* float: left; */
+    position: relative;
+    /* margin-right: 20px; */
+    /* margin-left: 20px; */
+    /* display: contents; */
+    /*display: flex;*/ /*esse coloca as div ao lado uma da outra*/
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+
+    width: 100%;
+    border: 1px solid;
+    border-color: gray;
+    box-shadow: 5px 5px 5px 3px gray;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+} 
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 5px 5px 5px gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 150%;
+}
+
+nav {
+    line-height: 150%;
+    /* poe as nav em dupla de gradros */
+    display: flex;
+}
+
+a {
+    /* Personalizar os links */
+    text-decoration: none;
+    color: rgb(75, 70, 70);
+}
+
+caption {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+tr {
+    line-height: 150%;
+    text-align: center;
 }
 
 /* REVER */
 
 .menu_principal{
     background-color: #DCCFE2;
+}
+.link_fotos{
+    /* Rever essa cor */
+    background-color: burlywood;
+}
+.link_plano_de_fundo{
+    /* Rever essa cor */
+    background-color: cadetblue;
 }
 .link_curriculo{
     background-color: #DBD1DF;
@@ -58,6 +126,17 @@ div {
 .linkedin_carta_apresentacao{
     background-color: #DBE0D0;
 }
+.linkedin_pitch_apresentacao{
+    /* Rever essa cor */
+    background-color: chocolate;
+}
+.caixa_de_caixas{
+    display: flex;
+    border: none;
+    box-shadow: none;
+    margin-right: 50px;
+}
+
 .linkedin_formacao{
     background-color: #D7E3CE;
 }
@@ -120,4 +199,31 @@ div {
 }
 .desafios{
     background-color: #D9DAD6;
+}
+
+
+/* ============================================ */
+
+.btn_voltar_menu {
+    background-color: black;
+    font-style: oblique;
+    color: whitesmoke;
+    border-style: 1px solid;
+    border-color: whitesmoke;
+    /* sombreamento das bordas */
+    box-shadow: 5px 5px 5px 3px gray;
+    border-radius: 5px;
+    /* distancia do teto */
+    margin-top: 10px;
+    /* distancia lado de dentro */
+    padding: 10px;
+}
+
+.btn_voltar_menu:hover {
+    background-color: gray;
+    font-style: oblique;
+    color: black;
+    cursor: pointer;
+    /* rever */
+    /* box-shadow: black; */
 }

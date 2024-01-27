@@ -1,11 +1,11 @@
 <!-- 
 *========================================================================================
 
-?   PROJETO ->> Desenvolvimento WEB Full Stack: Minha Página Linkedin e Currículo
+?   PROJETO ->> Desenvolvimento WEB Full Stack: Minha Página Linkedin e Currículo editáveis
 ?   OBJETIVO ->> Página para unir visualmente todas as etapas da busca de uma carreira e que também sejam fáceis de copiar e colar.
 ?   no Linkedin, Entrevistas e Currículo.
 ?   CRIAÇÃO E DESENVOLVIMENTO ->> Marcia Moreira
-?   DATA DA CRIAÇÃO ->> 18/01/2024
+?   DATA DA CRIAÇÃO ->> 18/01/2024 (Conclusão:  /  /  )
 ?   GITHUB ->> https://github.com/Marcia-Moreira
 ?   LINK WAKATIME ->> https://wakatime.com/@Marcia_Moreira
 ?   LINKEDIN ->> https://www.linkedin.com/in/marciamoreiramm
@@ -17,44 +17,181 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="<Marcia_Moreira>">
+    <meta name="descripttion" content="Minha Página Linkedin e Currículo editáveis">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/style.css">
-    <title>MEU LINKEDIN EDITÁVEL</title>
+    <title>MEU PERFIL de CARREIRA EDITÁVEL</title>
 </head>
 <body>
-    <heade>
+    <header>
         <h1>Marcia Moreira</h1>
-        <h2>Desenvolvedora Web Full Stack</h2>
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=DEA585&vCenter=true&random=false&width=435&lines=Ol%C3%A1+👋🏽!+Eu+sou+a+Marcia+Moreira%2C;seja+bem+vindo+ao+meu+perfil+👩🏽‍💻!" alt="Typing SVG Meu Letreiro"/>
+        <h1>Desenvolvedora Web Full Stack</h1>
+        <div class="img_letreiro">
+            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=DEA585&vCenter=true&random=false&width=435&lines=Ol%C3%A1+👋🏽!+Eu+sou+a+Marcia+Moreira%2C;seja+bem+vindo+ao+meu+perfil+👩🏽‍💻!" alt="Typing SVG Meu Letreiro"/>
+        </div>
         <br>
-    </heade>
+    </header>
     <main>
-        <div class="menu_principal">
+        <div class="menu_principal" id="botao_voltar">
             <h2>Menu Principal</h2>
+            <nav>
+            <!-- Navegação no meu site -->
             <div>
-                <p>
-                    - arrumar ancora para badges... 
-                    - arrumar link para ... 
+                <ul>
+                    <li><a href="#link_fotos">Links de fotos para Currículo / Inscrição Sites</a></li>
+                    <li><a href="#link_plano_de_fundo">Links de planos de fundo para Currículo / Inscrição Sites</a></li>
+                    <li><a href="#link_curriculo">Link para Currículo - Word no Google Drive</a></li>
+                    <li><a href="#badge_distintivo">My Badges / Meus Distintivos</a></li>
+                    <li><a href="#nome_funcao">Nomes Funções / Títulos Profissões / Titulos da Carreira</a></li>
+                    <li><a href="#linkedin_sobre">LinkedIn - Sobre</a></li>
+                    <li><a href="#linkedin_objetivo">LinkedIn - Objetivo da minha carreira</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#linkedin_carta_apresentacao">LinkedIn - Carta de Apresentação</a></li>
+                    <li><a href="#linkedin_pitch_apresentacao">LinkedIn - Pitch de Apresentação</a></li>
+                    <li><a href="#linkedin_formacao">LinkedIn - Formação</a></li>
+                    <li><a href="#linkedin_curso_especializacao">LinkedIn - Cursos e Especializações</a></li>
+                    <li><a href="#linkedin_bootcamp">LinkedIn - BootCamp / Cursos</a></li>
+                    <li><a href="#linkedin_projetos_sociais">LinkedIn - Projetos Sociais - rever o nome</a></li>
+                    <li><a href="#linkedin_idiomas">LinkedIn - Idiomas</a></li>
+                    <li><a href="#linkedin_link_diplomas">LinkedIn - Diplomas e Links de Diplomas</a></li>
+                    <li><a href="#linkedin_mensagens_privadas">LinkedIn - Mensagens padronizadas para envio no LinkedIn</a></li>
+                    <li><a href="#indicacao_linkedin">Pedir Indicações no Linkedin</a></li>
+                </ul>
+            </div>
+            </nav>
+            <nav>
+            <div>
+                <ul>
+                    <li><a href="#skill_carreira_anterior">Skills das Carreiras Anteriores</a></li>
+                    <li><a href="#skill_carreira_desenvolvedor">Skills da Carreira de Desenvolvedor Web</a></li>
+                    <li><a href="#hard_skill">Hard Skill - Tech</a></li>
+                    <li><a href="#soft_skill">Soft Skill</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#eu_minha_historia">Minha História</a></li>
+                    <li><a href="#eu_hobbies">Hobbies:</a></li>
+                    <li><a href="#eu_personalidade">Personalidade</a></li>
+                    <li><a href="#eu_ponto_positivo">5 Pontos Positivos sobre mim: Minhas Fortalezas</a></li>
+                    <li><a href="#eu_ponto_negativo">5 Pontos Negativos sobre mim: minhas fraquezas</a></li>
+                    <li><a href="#eu_motivo_demissao">Motivo de Desligamento / Demissão</a></li>
+                    <li><a href="#tecnica_star">A técnica STAR</a></li>
+                    <li><a href="#cases_sucesso">Cases de Sucesso</a></li>
+                    <li><a href="#desafios">Maior Desafio:</a></li>
+                </ul>
+            </div>
+            </nav>
+            <nav>
+            <div>
+                <ul>
+                    <li><a href="#empresas_quero_trabalhar">Em qual empresa eu quero trabalhar?</a></li>
+                    <li><a href="#testes_entrevistas">Testes de Entrevistas </a></li>
+                    <li><a href="#relatos_bootcamp">Relatos de Atuações em Projetos BootCamp</a></li>
+                    <li><a href="#sites_carreiras">Sites de Pesquisas de Carreiras</a></li>
+                    <li><a href="#site_cadastro_curriculo">Link Sites de Cadastro de Currículos</a></li>
+                    <li><a href="#agencias_emprego">Link Agências de Emprego</a></li>
+                    <li><a href="#freelancer">Links Sites Freelancer</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+        <!-- ===================================================== -->
+        <div class="link_fotos" id="link_fotos">
+            <h2>Links de fotos para Currículo / Inscrição Sites</h2>
 
-                </p>
+            <a href="#" title="Foto Marcia Moreira - opção 01" target="_blank" rel="noreferrer noopener">Foto opção 01</a>
+
+            <a href="#" title="Foto Marcia Moreira - opção 02" target="_blank" rel="noreferrer noopener">Foto opção 02</a>
+
+            <a href="#" title="Foto Marcia Moreira - opção 02" target="_blank" rel="noreferrer noopener">Foto opção 03</a>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+
+            <!-- propriedade testando botao com popup -->
+            <!-- <button aria-haspopup="true">aria-haspopup</button> -->
+        </div>
+        <!-- ===================================================== -->
+        <div class="link_plano_de_fundo" id="link_plano_de_fundo">
+            <h2>Links de planos de fundo para Currículo / Inscrição Sites</h2>
+            <div>
+                <!-- Imagem como link -->
+                <a href="">
+                <img src="arquivo-image.png" alt="Img Plano de Fundo Opção 01">
+                </a>
+                <!-- Apenas Link -->
+                <a href="" title="Plano de Fundo Marcia Moreira - opção 01" target="_blank" rel="noreferrer noopener">Plano de Fundo opção 01</a>
             </div>
             <div>
-                <p>
-                    - arrumar ancora para 
-                    - arrumar ancora para 
-                </p>
+                <!-- Imagem como link -->
+                <a href="">
+                <img src="arquivo-image.png" alt="Img Plano de Fundo Opção 02">
+                </a>
+                <!-- Apenas Link -->
+                <a href="" title="Plano de Fundo Marcia Moreira - opção 02" target="_blank" rel="noreferrer noopener">Plano de Fundo opção 02</a>
             </div>
-        </div>
-        <div class="link_curriculo">
-            <h2>Link para Currículo - Word</h2>
-            <a href=" ">Currículo - Geral - Matriz</a>
-            <a href=" ">Currículo - Resumido</a>
-        </div>
-        <div class="badge_distintivo">
-            <h2>My Badges/ Meus Distintivos</h2>
+            <div>
+                <!-- Imagem como link -->
+                <a href="">
+                <img src="arquivo-image.png" alt="Img Plano de Fundo Opção 03">
+                </a>
+                <!-- Apenas Link -->
+                <a href="" title="Plano de Fundo Marcia Moreira - opção 03" target="_blank" rel="noreferrer noopener">Plano de Fundo opção 03</a>
+            </div>
+            <div>
+                <!-- Imagem como link -->
+                <a href="">
+                <img src="arquivo-image.png" alt="Img Plano de Fundo Opção 04">
+                </a>
+                <!-- Apenas Link -->
+                <a href="" title="Plano de Fundo Marcia Moreira - opção 04" target="_blank" rel="noreferrer noopener">Plano de Fundo opção 04</a>
+            </div>
+
             <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+
         </div>
-        <div class="nome_funcao">
+        <!-- ===================================================== -->
+        <div class="link_curriculo" id="link_curriculo">
+            <h2>Link para Currículo - Word no Google Drive</h2>
+            <a href="#" target="_blank">Currículo - Geral - Matriz</a>
+            <a href="#" target="_blank">Currículo - Resumido</a>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="badge_distintivo" id="badge_distintivo">
+            <h2>My Badges / Meus Distintivos</h2>
+            <br>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="nome_funcao" id="nome_funcao">
             <h2>Nomes Funções / Títulos Profissões / Titulos da Carreira</h2>
             <p>
                 - Desenvolvedor<br> 
@@ -65,27 +202,82 @@
                 - Programador de Sistemas<br> 
                 - Nomes em Inglês: <br>
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_sobre">
+        <!-- ===================================================== -->
+        <div class="linkedin_sobre" id="linkedin_sobre">
             <h2>LinkedIn - Sobre</h2>
             <p>
                 Carioca, morando em SP à 6 anos, em transição de carreira...
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_objetivo">
-            <h2>Objetivo da minha carreira</h2>
+        <!-- ===================================================== -->
+        <div class="linkedin_objetivo" id="linkedin_objetivo">
+            <h2>LinkedIn - Objetivo da minha carreira</h2>
             <p>
                 Oi
+                * foco no nome da profissão anunciada ou na área em questão se não sabemos o nome da função.
+
+                - texto padrão Tech: ...
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_carta_apresentacao">
-            <h2>Carta de Apresentação</h2>
+        <!-- ===================================================== -->
+        <div class="linkedin_carta_apresentacao" id="linkedin_carta_apresentacao">
+            <h2>LinkedIn - Carta de Apresentação</h2>
             <p>
-                oi sou...
+                Olá, sou...
+                - Para enviar inbox Linkedin:
+                - Para enviar no corpo de E-mail
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_formacao">
-            <h2>Formação</h2>
+        <!-- ===================================================== -->
+        <div class="linkedin_pitch_apresentacao" id="linkedin_pitch_apresentacao">
+            <h2>LinkedIn - Pitch de Apresentação</h2>
+            <!-- Instalar Teleprompter para fazer o Pitch -->
+            <div class="caixa_de_caixas">
+                <div>
+                    <h3>Pitch 01</h3>
+                    <p>Texto contido no Pitch</p>
+                    <p><a href=" " target="_blank">Link para o Vídeo Pitch no Youtube</a></p>
+                    <p>Data de Gravação: /  /   .</p>
+                </div>
+                <div>
+                    <h3>Pitch 02</h3>
+                    <p>Texto contido no Pitch</p>
+                    <p><a href=" " target="_blank">Link para o Vídeo Pitch no Youtube</a></p>
+                    <p>Data de Gravação: /  /   .</p>
+                </div>
+                <div>
+                    <h3>Pitch 03</h3>
+                    <p>Texto contido no Pitch</p>
+                    <p><a href=" " target="_blank">Link para o Vídeo Pitch no Youtube</a></p>
+                    <p>Data de Gravação: /  /   .</p>
+                </div>
+                <div>
+                    <h3>Pitch 04</h3>
+                    <p>Texto contido no Pitch</p>
+                    <p><a href=" " target="_blank">Link para o Vídeo Pitch no Youtube</a></p>
+                    <p>Data de Gravação: /  /   .</p>
+                </div>
+            </div>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="linkedin_formacao" id="linkedin_formacao">
+            <h2>LinkedIn - Formação</h2>
             <p>
                 Pós Graduada em Desenvolvimento Full-Stack - Cursando - Faculdade Descomplica<br>
                 Pós Graduada em Negociação e Vendas - Completo - Anhembi-Morumbi<br>
@@ -94,40 +286,125 @@
                 Programador de Sistemas - Completo - SENAC 6 meses <br>
                 Desenvolvedor Web Front e Back End - Cursando - Korú 6 meses<br> 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_curso_especializacao">
-            <h2>Cursos e Especializações</h2>
-            <p>
-                <p></p>
-            </p>
+        <!-- ===================================================== -->
+        <div class="linkedin_curso_especializacao" id="linkedin_curso_especializacao">
+            <h2>LinkedIn - Cursos e Especializações</h2>
+            <!-- Tabelas HTML -->
+            <table>
+                <caption> Cursos e Especializações </caption>
+                <tr>
+                    <!-- Título das Colunas -->
+                    <td>Curso / Formação</td>
+                    <td>Instituição</td>
+                    <td>Status</td>
+                    <td>Carga Horária</td>
+                    <td>Conclusão em: </td>
+                    <td>Link Certificado</td>
+                    <td>Link Challenger no GitHub</td>
+                </tr>
+                <tr>
+                    <!-- Conteúdo do primeiro ítem -->
+                    <td>Programador de Sistemas</td>
+                    <td>Senac SP</td>
+                    <td>Concluído</td>
+                    <td>06 meses</td>
+                    <td>10-2023</td>
+                    <td><a href="" target="_blank">Link Certificado</a></td>
+                    <td><a href="" target="_blank">Link Challenger no GitHub</a></td>
+                </tr>
+                <tr>
+                    <td>Desenvolvedor Web Front End</td>
+                    <td>Senac SP</td>
+                    <td>Concluído</td>
+                    <td>04 meses</td>
+                    <td>11-2023</td>
+                    <td><a href="" target="_blank">Link Certificado</a></td>
+                    <td><a href="" target="_blank">Link Challenger no GitHub</a></td>
+                </tr>
+                <tr>
+                    <td>Desenvolvedor Full Stack</td>
+                    <td>Escola Korú</td>
+                    <td>Cursando</td>
+                    <td>06 meses</td>
+                    <td>03-2024</td>
+                    <td><a href="" target="_blank">Link Certificado</a></td>
+                    <td><a href="" target="_blank">Link Challenger no GitHub</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="" target="_blank">Link Certificado</a></td>
+                    <td><a href="" target="_blank">Link Challenger no GitHub</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><a href="" target="_blank">Link Certificado</a></td>
+                    <td><a href="" target="_blank">Link Challenger no GitHub</a></td>
+                </tr>
+            </table>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_bootcamp">
-            <h2>BootCamp / Cursos</h2>
+        <!-- ===================================================== -->
+        <div class="linkedin_bootcamp" id="linkedin_bootcamp">
+            <h2>LinkedIn - BootCamp / Cursos</h2>
             <p>
                 - 42SP<br>
                 - Alura (6 meses)<br>
                 - Desenvolvedor Web FullStack Python e Django - WoMakersCode - Cursando - 3 meses <br>
                 - 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_projetos_sociais">
-            <h2>Projetos Sociais - rever o nome</h2>
+        <!-- ===================================================== -->
+        <div class="linkedin_projetos_sociais" id="linkedin_projetos_sociais">
+            <h2>LinkedIn - Projetos Sociais - rever o nome</h2>
+            <p>
+
+                -rever
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_idiomas">
-            <h2>Idiomas</h2>
+        <!-- ===================================================== -->
+        <div class="linkedin_idiomas" id="linkedin_idiomas">
+            <h2>LinkedIn - Idiomas</h2>
             <p>
                 - Inglês - Básico<br>
                 - Inglês - Técnico<br>  
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_link_diplomas">
-            <h2>Diplomas e Links de Diplomas:</h2>
+        <!-- ===================================================== -->
+        <div class="linkedin_link_diplomas" id="linkedin_link_diplomas">
+            <h2>LinkedIn - Diplomas e Links de Diplomas</h2>
             <p>
                 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="linkedin_mensagens_privadas">
-            <h2>Mensagens padronizadas para envio no LinkedIn:</h2>
+        <!-- ===================================================== -->
+        <div class="linkedin_mensagens_privadas" id="linkedin_mensagens_privadas">
+            <h2>LinkedIn - Mensagens padronizadas para envio no LinkedIn</h2>
             <p>
                 - texto pedindo conexão no linkedin 
                 - texto pedindo DEPOIMENTO pra quem já está na rede
@@ -135,247 +412,12 @@
                 - texto 
                 
             </p>
-        </div>     
-        <div class="skill_carreira_anterior">
-            <h2>Skills das Carreiras Anteriores</h2>
-            <p>
 
-            </p>
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="skill_carreira_desenvolvedor">
-            <h2>Skills da Carreira de Desenvolvedor Web</h2>
-            <p>
-                
-            </p>
-        </div>
-        <div>
-            <h2>Minhas Experiências em Desenvolvimento de Projetos</h2>
-            <p>
-                
-            </p>
-        </div>
-        <div>
-            <h2>Minhas Experiências anteriores mais relevantes</h2>
-            <p>
-                Em vendas ->
-                <br>
-                Em RH/Departamento Pessoal -> 
-                <br>
-            </p>
-        </div>
-        <div>
-            <h2>Palavras Chaves da Carreira em Desenvolvimento Full-Stack</h2>
-            <p>
-                Pegar do Chat Bard <br>
-                <br>
-                <br>
-                <br>                
-            </p>
-        </div>
-        <div>
-            <h2>Palavras Chaves nos Currículos x Vagas</h2>
-            <p>
-                <br>
-                <br>
-                <br>
-                <br>
-            </p>
-        </div>
-        <div class="hard_skill">
-            <h2>Hard Skill -> Lista de Nomes de Coisas que Estudei e seu Significado:</h2>
-            <p>
-                <div>
-                    <p>Linguagem de Programação:</p>
-                    - Python <br>
-                    - JavaScript <br>
-                    - C# <br>
-                    - C <br>
-                    -
-                </div>
-                <div>
-                    <p>IDE's e Editores de Código:</p>
-                    - Visual Studio Code <br>
-                    - VSCode <br>
-                    - 
-                </div>
-                <div>
-                    <p>FrameWorks:</p>
-                    - Django <br>
-                    - BootStrap <br>
-                    - Flask <br>
-                    - Metodologia SCRUM <br>
-                    - Metodologia Kanbam <br>
-                    - Canva <br>
-                    -
-                </div>
-            </p>
-        </div>
-        <div class="soft_skill">
-            <h2>Soft Skill -> Lista de Nomes de Coisas que Estudei e seu Significado:</h2>
-            <p>
-                <div>
-                    <p>ver:</p>
-                    - <br>
-                    - <br>
-                    - <br>
-                    - <br>
-                    -
-                </div>
-                <div>
-                    <p>ver:</p>
-                    - <br>
-                    - <br>
-                    - 
-                </div>
-                <div>
-                    <p>ver:</p>
-                    - <br>
-                    - <br>
-                    - <br>
-                    - <br>
-                    - <br>
-                    - <br>
-                </div>
-            </p>
-        </div>
-
-        <!-- ! EU PESSOA / MINHA HISTÓRIA/ COMO EU SOU -->
-
-        <div class="eu_minha_historia">
-            <h2>Minha História</h2>
-            <p>
-                Eu, Nascida na Baixada Fluminense, Duque de Caxias, no estado do Rio de Janeiro, a caçula de 3 irmãos, proveniente de escolas públicas, fiz Formação de Professores no ensino médio, me formei Bacharel em Administração de Empresas, me tornando a primeira "pessoa" a frequentar e me formar em uma universidade, em toda a minha família (materna e paterna = percursora). Pós Graduada com Especialização em Negociação e Vendas e cursando minha segunda Pós Graduação em Desenvolvimento de Sistemase Full-Stack.<br><br>
-
-                Dei certo porque minha mãe, embora ela não tivesse tido oportunidade, sempre se esforçou muito em estudar (ela conseguiu chegar até a quinta série, contra tudo e todos), e nos passou a importancia da educação!<br><br>
-
-                Ela sempre lutou contra o pensamento retrógrodo da família do meu pai contra os estudos e fez de um tudo para que nós tivéssemos educação. E além da educação formal, também nos colocou em diversos tipos de cursos desde muito novinhos, então somos pessoas curiosas, criativas e versáteis, estamos sempre aprendendo algo e costumamos dizer que somos capazes de aprender qualquer coisa, graças à esse chip que ela nos implantou desde muito cedo! rs <br><br>
-
-                Bom, consegui sair de uma realidade muito difícil e seguimos em frente, longe das armadilhas que o nosso meio social nos oferecia embora morassemos lá. Então, digo que "minha mãe, deu certo também"! <br><br>
-            </p>
-        </div>
-        <div class="eu_hobbies">
-            <h2>Hobbies:</h2>
-            <p>
-                - Corrida de Rua (Primeira Maratona)<br>
-                - Dança de Salão <br>
-                - Dança do Ventre <br>
-                - Viajar para lugares inusitados ou vivenciar de maneira inusitada (correndo, de bike, caminhando) <br>
-                - Marcenaria <br>
-                - Costura <br>
-            </p>
-        </div>
-        <div class="eu_personalidade">
-            <h2>Personalidade</h2>
-            <p>
-                - Gosto de desafios (maratona/mudar de estado)<br>
-                - Consistente -> embora goste de muitas coisas diferentes, quando escolho algo, quero entender a essência e mergulho de cabeça. <br>
-                - Focada / Concentrada<br>
-                - Teste das 16 Personalidades: Protagonista                
-            </p>
-        </div>
-        <div class="eu_ponto_positivo">
-            <h2>5 Pontos Positivos sobre mim: Minhas Fortalezas</h2>
-            <p>
-                - Criativa<br>
-                - Organizada <br>
-                - Focada (Tenho Objetivosw e Metas claras e alcançavéis)<br>
-                -Traço meus objetivos, analiso todas as possibilidades através de um "BrainStorm", ajusto a rota e foco na realização.<br> 
-            </p>
-        </div>
-        <div class="eu_ponto_negativo">
-            <h2>5 Pontos Negativos sobre mim (Trazer possíveis Soluções): Minhas Fraquezas</h2>
-            <p>
-                - Não saber dizer não (mentira, já aprendi e disse ao meu diretor e ele entendeu kkkkk sobre reuniões excesivas)<br>
-                - Fazer tudo ao mesmo tempo (Uso Trello para Administrar melhor as tarefas e me policiar)<br>
-                - Falar em Público -> Meu calcanhar de aquiles! Naturalmente evito, mas vivo em constante "tratamento", desde os 20 anos e a apenas 3 anos, mesmo sempre tendo que fazer e apresentar treinamentos de RH numa vida inteira, é que consegui sentir resultados pessoais satisfatórios quando fiz um curso de Teatro para Executivos! Um divisor de águas para o meu psicológico ao me apresentar. E aq partir daí sigo me forçando a continuar a praticar para "me curar".  <br>
-                - Procrastinação -> Preciso ficar me policiando para cumprir prazo de início de algumas tarefas. O mais difícil é começar, mas depois que começo, vou até o fim (Tipo meu cérebro evita, mas é capaz)<br>
-            </p>
-        </div>
-        <div class="eu_motivo_demissao">
-            <div>
-                <h2>Porque você saiu da empresa Oscar Iskin?</h2>
-                <p>
-                    A empresa fechou as portas em 2017. Como Responsável pela folha de pagamento e rescisões, eu fiz as honras da casa e fechei as portas já com a viagem e mudança marcadas para São Paulo! Foram 2 anos de "fechamento", muito triste e desgastante tanta demissão e lidar com as minhas emoções e incertezas e com as dos demais funcionários que eu tinha que demitir!
-                </p>
-            </div>
-            <div>
-                <h2>Porque você saiu de Vendas - Comissão?</h2>
-                <p>
-                    Levei mais rasteira que tudo! Não parava em pé, financeiramente falando! <br>
-                    Tive a sorte de entrar num mercado muito crítico: de Imóveis. Até entender as regras do jogo que não ensinaram na formação, levei muito fifth (50%) e aí as contas não fechavam.<br> 
-                    Por motivos semelhantes eu não vou pra área de Segurança da Informação (embora fosse um caminho mais curto pois conheço mais pessoas da área), pois me imagino levando muita rasteira dos hackers e esse não é o meu lance! rs<br>
-                </p>
-            </div>
-            <div>
-                <h2>Por qual motivo decidiu fazer Transição de Carreira?</h2>
-                <p>
-                    Foi mesmo opcional!!! À 22 anos atrás, eu não pude estudar programação (minha mãe nos matriculou num cursinho, mas não pudemos continuar). Mas agora, nesse momento da vida, eu pude ter de certa forma, amparo monetário para poder "ficar desempregada" e me dedicar a estudar! Mas que fique claro que só estudei através de bolsas de estudo, passando por provas, entrevistas e desafios, pois não podia aumentar mais ainda o custo lá em casa. <br>
-                    Fato que se eu não tivesse esse apoio, certamente continuaria na minha antiga carreira que já estava muito consolidada embora sem novidades e desafios, como o meu perfil ama e vinha buscando!<br>  
-                </p>
-            </div>
-        <div class="tecnica_star">
-            <h2>A técnica STAR (situação, tarefa, ação e resultado):</h2>
-            <p>
-                -Qual foi a situação mais desafiadora que você já vivenciou nesses anos de trabalho? <br>
-                -Você consegue se lembrar de alguma situação difícil com o cliente onde foi necessário que você pensasse em uma solução? <br>
-                -Descreva um momento em que você estava sob muita pressão no trabalho. <br>
-                -Você pode me contar um exemplo em que você soube usar a adaptabilidade? <br>
-                -Você pode me contar uma situação onde sua resolução de problemas foi ágil?  <br>
-            </p>
-        </div>
-        <div class="cases_sucesso">
-            <h2>Cases de Sucesso: Trazer as Skilss com exemplos</h2>
-            <p>
-                <p>Case 01 que comprova a Skill X </p>
-                Problema - <br>
-                Solução - <br>
-                Resultado - <br>
-                <!-- Rascunho: -->
-                Em RH eu sempre estava atuando na resolução de problemas, problemas das pessoas, problemas da empresa.
-                Um exemplo de solução de problema das pessoas: Observei a crescente adesão dos funcionários ao crédito consignado descontado em folha, e também o aumento de renegociação. Não era suficiente aplicar o controle de percentual permitido legalmente. Criei um sistema de controle de percentual x educação financiera x adiantamento salarial. 
-                Ações por fases de endividamento
-                Cálculo Rescisório do Valor de Rescisão x Empréstimo parcelado sem Juros Absurdos.
-
-  
-                <p>Case 01 que comprova a Skill y </p>
-                Problema - <br>
-                Solução - <br>
-                Resultado - <br>
-                <!-- Rascunho: -->
-                Análise de benefícios para as mulheres. Realizei uma pesquisa para descubrir a principal queixa das funcionárias em rotinas não relacionadas ao trabalho e foi identificada a reclamação de falta de tempo para frequentar salão de Manicure mesmo com a real necessidade que elas sentiam em manter as unhas organizadas para o trabalho. Então foi criado o benefício de Manicure dentro da empresa. Contratamos uma manicure para que as funcionárias agendassem o serviço que era realizado em 30 minutos dentro do seu horário de expediente.
-
-                <p>Case 01 que comprova a Skill Z </p>
-                Problema - <br>
-                Solução - <br>
-                Resultado - <br>
-
-            </p>
-        </div>
-        <div class="desafios">
-            <h2>Maior Desafio: </h2>
-            <p>
-                - Ter coragem de fazer transição de carreira (após 20 anos de carreira e com 42 anos sabendo que o mercado quer nos aposentar!) Literalmente sair da minha zona de conforto.<br>
-                - Mudar de Estado sozinha e sem emprego<br>
-                - Lidar com as Incertezas de Demitir todos os funcionários e ficar por último! rs <br>
-                - Ficar viúva e endividada aos 29 anos. <br>
-                - Ser filha de mãe praticamente solo, ou pior, com pai muito alcoolatra dentro de casa. <br>
-                - ser... mulher, negra, 40+, e !... <br>                
-            </p>
-        </div>
-        <!-- rever posição -->
-        <div>
-            <h2></h2>
-            <p>
-                
-            </p>
-        </div>
-        <div>
-            <h2></h2>
-            <p>
-                
-            </p>
-        </div>
-        <div>
+        <!-- ===================================================== -->
+        <div class="indicacao_linkedin" id="indicacao_linkedin">
             <h2>Pedir Indicações no Linkedin</h2>
             <p>
                 <p>
@@ -404,11 +446,345 @@
                 </p>
                 <p>
                     Planilha das Colegas de Aula WhoMakersCode 01-2024
-                    <a href="https://docs.google.com/spreadsheets/d/1crBKcmmI6urx2xzVZMxk6eiPqB7Kyghsq6QUrGyZfoI/edit?pli=1#gid=0"></a>
+                    <a href="https://docs.google.com/spreadsheets/d/1crBKcmmI6urx2xzVZMxk6eiPqB7Kyghsq6QUrGyZfoI/edit?pli=1#gid=0" target="_blank"></a>
                 </p>
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
+        <!-- ===================================================== -->     
+        <div class="skill_carreira_anterior" id="skill_carreira_anterior">
+            <h2>Skills das Carreiras Anteriores</h2>
+            <p>
+
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="skill_carreira_desenvolvedor" id="skill_carreira_desenvolvedor">
+            <h2>Skills da Carreira de Desenvolvedor Web</h2>
+            <p>
+                
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
         <div>
+            <h2>Minhas Experiências em Desenvolvimento de Projetos</h2>
+            <p>
+                
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div>
+            <h2>Minhas Experiências anteriores mais relevantes</h2>
+            <p>
+                Em vendas ->
+                <br>
+                Em RH/Departamento Pessoal -> 
+                <br>
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div>
+            <h2>Palavras Chaves da Carreira em Desenvolvimento Full-Stack</h2>
+            <p>
+                Pegar do Chat Bard <br>
+                <br>
+                <br>
+                <br>                
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div>
+            <h2>Palavras Chaves nos Currículos x Vagas</h2>
+            <p>
+                <br>
+                <br>
+                <br>
+                <br>
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="hard_skill" id="hard_skill">
+            <h2>Hard Skill -> Lista de Nomes de Coisas que Estudei e seu Significado:</h2>
+            <p>
+                <div>
+                    <p>Linguagem de Programação:</p>
+                    <p>
+                    - Python <br>
+                    - JavaScript <br>
+                    - C# <br>
+                    - C <br>
+                    -
+                    </p>
+                </div>
+                <div>
+                    <p>IDE's e Editores de Código:</p>
+                    <p>
+                    - Visual Studio Code <br>
+                    - VSCode <br>
+                    - 
+                    </p>
+                </div>
+                <div>
+                    <p>FrameWorks:</p>
+                    <p>
+                    - Django <br>
+                    - BootStrap <br>
+                    - Flask <br>
+                    - Metodologia SCRUM <br>
+                    - Metodologia Kanbam <br>
+                    - Canva <br>
+                    -
+                    </p>
+                </div>
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="soft_skill" id="soft_skill">
+            <h2>Soft Skill -> Lista de Nomes de Coisas que Estudei e seu Significado:</h2>
+            <div>
+                <div>
+                    <p>ver:</p>
+                    <p>
+                    - <br>
+                    - <br>
+                    - <br>
+                    - <br>
+                    -
+                    </p>
+                </div>
+                <div>
+                    <p>ver:</p>
+                    <p>
+                    - <br>
+                    - <br>
+                    - 
+                    </p>
+                </div>
+                <div>
+                    <p>ver:</p>
+                    <p>
+                    - <br>
+                    - <br>
+                    - <br>
+                    - <br>
+                    - <br>
+                    - <br>
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <!-- ! EU PESSOA / MINHA HISTÓRIA/ COMO EU SOU -->
+        <div class="eu_minha_historia" id="eu_minha_historia">
+            <h2>Minha História</h2>
+            <p>
+                Eu, Nascida na Baixada Fluminense, Duque de Caxias, no estado do Rio de Janeiro, a caçula de 3 irmãos, proveniente de escolas públicas, fiz Formação de Professores no ensino médio, me formei Bacharel em Administração de Empresas, me tornando a primeira "pessoa" a frequentar e me formar em uma universidade, em toda a minha família (materna e paterna = percursora). Pós Graduada com Especialização em Negociação e Vendas e cursando minha segunda Pós Graduação em Desenvolvimento de Sistemase Full-Stack.<br><br>
+
+                Dei certo porque minha mãe, embora ela não tivesse tido oportunidade, sempre se esforçou muito em estudar (ela conseguiu chegar até a quinta série, contra tudo e todos), e nos passou a importancia da educação!<br><br>
+
+                Ela sempre lutou contra o pensamento retrógrodo da família do meu pai contra os estudos e fez de um tudo para que nós tivéssemos educação. E além da educação formal, também nos colocou em diversos tipos de cursos desde muito novinhos, então somos pessoas curiosas, criativas e versáteis, estamos sempre aprendendo algo e costumamos dizer que somos capazes de aprender qualquer coisa, graças à esse chip que ela nos implantou desde muito cedo! rs <br><br>
+
+                Bom, consegui sair de uma realidade muito difícil e seguimos em frente, longe das armadilhas que o nosso meio social nos oferecia embora morassemos lá. Então, digo que "minha mãe, deu certo também"! <br><br>
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="eu_hobbies" id="eu_hobbies">
+            <h2>Hobbies:</h2>
+            <p>
+                - Corrida de Rua (Primeira Maratona)<br>
+                - Dança de Salão <br>
+                - Dança do Ventre <br>
+                - Viajar para lugares inusitados ou vivenciar de maneira inusitada (correndo, de bike, caminhando) <br>
+                - Marcenaria <br>
+                - Costura <br>
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="eu_personalidade" id="eu_personalidade">
+            <h2>Personalidade</h2>
+            <p>
+                - Gosto de desafios (maratona/mudar de estado)<br>
+                - Consistente -> embora goste de muitas coisas diferentes, quando escolho algo, quero entender a essência e mergulho de cabeça. <br>
+                - Focada / Concentrada<br>
+                - Teste das 16 Personalidades: Protagonista                
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="eu_ponto_positivo" id="eu_ponto_positivo">
+            <h2>5 Pontos Positivos sobre mim: Minhas Fortalezas</h2>
+            <p>
+                - Criativa<br>
+                - Organizada <br>
+                - Focada (Tenho Objetivosw e Metas claras e alcançavéis)<br>
+                -Traço meus objetivos, analiso todas as possibilidades através de um "BrainStorm", ajusto a rota e foco na realização.<br> 
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="eu_ponto_negativo" id="eu_ponto_negativo">
+            <h2>5 Pontos Negativos sobre mim (Trazer possíveis Soluções): Minhas Fraquezas</h2>
+            <p>
+                - Não saber dizer não (mentira, já aprendi e disse ao meu diretor e ele entendeu kkkkk sobre reuniões excesivas)<br>
+                - Fazer tudo ao mesmo tempo (Uso Trello para Administrar melhor as tarefas e me policiar)<br>
+                - Falar em Público -> Meu calcanhar de aquiles! Naturalmente evito, mas vivo em constante "tratamento", desde os 20 anos e a apenas 3 anos, mesmo sempre tendo que fazer e apresentar treinamentos de RH numa vida inteira, é que consegui sentir resultados pessoais satisfatórios quando fiz um curso de Teatro para Executivos! Um divisor de águas para o meu psicológico ao me apresentar. E aq partir daí sigo me forçando a continuar a praticar para "me curar".  <br>
+                - Procrastinação -> Preciso ficar me policiando para cumprir prazo de início de algumas tarefas. O mais difícil é começar, mas depois que começo, vou até o fim (Tipo meu cérebro evita, mas é capaz)<br>
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="eu_motivo_demissao" id="eu_motivo_demissao">
+            <div>
+                <h2>Porque você saiu da empresa Oscar Iskin?</h2>
+                <p>
+                    A empresa fechou as portas em 2017. Como Responsável pela folha de pagamento e rescisões, eu fiz as honras da casa e fechei as portas já com a viagem e mudança marcadas para São Paulo! Foram 2 anos de "fechamento", muito triste e desgastante tanta demissão e lidar com as minhas emoções e incertezas e com as dos demais funcionários que eu tinha que demitir!
+                </p>
+            </div>
+            <div>
+                <h2>Porque você saiu de Vendas - Comissão?</h2>
+                <p>
+                    Levei mais rasteira que tudo! Não parava em pé, financeiramente falando! <br>
+                    Tive a sorte de entrar num mercado muito crítico: de Imóveis. Até entender as regras do jogo que não ensinaram na formação, levei muito fifth (50%) e aí as contas não fechavam.<br> 
+                    Por motivos semelhantes eu não vou pra área de Segurança da Informação (embora fosse um caminho mais curto pois conheço mais pessoas da área), pois me imagino levando muita rasteira dos hackers e esse não é o meu lance! rs<br>
+
+                    - Magalu -> Éramos home-office, quando acabou pandemia, mudou para presencial - frente de loja, e eu Não me identifiquei. Fiquei um tempo mas aí pedi para sair. Meu gerente um tempo depois até me convidou para trabalhar em outro lugar com Consórcio, mas eu já estava envolvida em outro desfio.
+
+                    - O que falar da Teleperformance
+                </p>
+            </div>
+            <div>
+                <h2>Por qual motivo decidiu fazer Transição de Carreira?</h2>
+                <p>
+                    Foi mesmo opcional!!! À 22 anos atrás, eu não pude estudar programação (minha mãe nos matriculou num cursinho, mas não pudemos continuar). Mas agora, nesse momento da vida, eu pude ter de certa forma, amparo monetário para poder "ficar desempregada" e me dedicar a estudar! Mas que fique claro que só estudei através de bolsas de estudo, passando por provas, entrevistas e desafios, pois não podia aumentar mais ainda o custo lá em casa. <br>
+                    Fato que se eu não tivesse esse apoio, certamente continuaria na minha antiga carreira que já estava muito consolidada embora sem novidades e desafios, como o meu perfil ama e vinha buscando!<br>  
+                </p>
+            </div>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="tecnica_star" id="tecnica_star">
+            <h2>A técnica STAR (situação, tarefa, ação e resultado):</h2>
+            <p>
+                -Qual foi a situação mais desafiadora que você já vivenciou nesses anos de trabalho? <br>
+                -Você consegue se lembrar de alguma situação difícil com o cliente onde foi necessário que você pensasse em uma solução? <br>
+                -Descreva um momento em que você estava sob muita pressão no trabalho. <br>
+                -Você pode me contar um exemplo em que você soube usar a adaptabilidade? <br>
+                -Você pode me contar uma situação onde sua resolução de problemas foi ágil?  <br>
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="cases_sucesso" id="cases_sucesso">
+            <h2>Cases de Sucesso: Trazer as Skilss com exemplos</h2>
+            <p>
+                <p>Case 01 que comprova a Skill X </p>
+                Problema - <br>
+                Solução - <br>
+                Resultado - <br>
+                <!-- Rascunho: -->
+                Em RH eu sempre estava atuando na resolução de problemas, problemas das pessoas, problemas da empresa.
+                Um exemplo de solução de problema das pessoas: Observei a crescente adesão dos funcionários ao crédito consignado descontado em folha, e também o aumento de renegociação. Não era suficiente aplicar o controle de percentual permitido legalmente. Criei um sistema de controle de percentual x educação financiera x adiantamento salarial. 
+                Ações por fases de endividamento
+                Cálculo Rescisório do Valor de Rescisão x Empréstimo parcelado sem Juros Absurdos.
+
+  
+                <p>Case 01 que comprova a Skill y </p>
+                Problema - <br>
+                Solução - <br>
+                Resultado - <br>
+                <!-- Rascunho: -->
+                Análise de benefícios para as mulheres. Realizei uma pesquisa para descubrir a principal queixa das funcionárias em rotinas não relacionadas ao trabalho e foi identificada a reclamação de falta de tempo para frequentar salão de Manicure mesmo com a real necessidade que elas sentiam em manter as unhas organizadas para o trabalho. Então foi criado o benefício de Manicure dentro da empresa. Contratamos uma manicure para que as funcionárias agendassem o serviço que era realizado em 30 minutos dentro do seu horário de expediente.
+
+                <p>Case 01 que comprova a Skill Z </p>
+                Problema - <br>
+                Solução - <br>
+                Resultado - <br>
+
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="desafios" id="desafios">
+            <h2>Maior Desafio: </h2>
+            <p>
+                - Ter coragem de fazer transição de carreira (após 20 anos de carreira e com 42 anos sabendo que o mercado quer nos aposentar!) Literalmente sair da minha zona de conforto.<br>
+                - Mudar de Estado sozinha e sem emprego<br>
+                - Lidar com as Incertezas de Demitir todos os funcionários e ficar por último! rs <br>
+                - Ficar viúva e endividada aos 29 anos. <br>
+                - Ser filha de mãe praticamente solo, ou pior, com pai muito alcoolatra dentro de casa. <br>
+                - ser... mulher, negra, 40+, e !... <br>                
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <!-- rever posição -->
+        <div>
+            <h2></h2>
+            <p>
+                
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div>
+            <h2></h2>
+            <p>
+                
+            </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
+        </div>
+        <!-- ===================================================== -->
+        <div class="empresas_quero_trabalhar" id="empresas_quero_trabalhar">
             <h2> Em qual empresa eu quero trabalhar? </h2>
             <p>
                 Formular perguntas inteligêntes para fazer à recrutadora:
@@ -420,14 +796,22 @@
                 04-> Qual é o tempo médio que os contratados ficam na Empresa Y?
                 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div>
+        <!-- ===================================================== -->
+        <div class="testes_entrevistas" id="testes_entrevistas">
             <h2>Pesquisar Testes de Entrevistas </h2>
             <p>
                 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div>
+        <!-- ===================================================== -->
+        <div class="relatos_bootcamp" id="relatos_bootcamp">
             <h2>Relatos de Atuações em Projetos BootCamp</h2>
             <p>
                 Curso Senac Programador de Sistemas - Product Oner... 
@@ -451,66 +835,102 @@
             <p>
                 Projeto página Star Wars da WoMakersCode
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
+        <!-- ===================================================== -->
         <div>
             <h2></h2>
             <p>
                 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
+        <!-- ===================================================== -->
         <div>
             <h2></h2>
             <p>
                 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div>
+        <!-- ===================================================== -->
+        <div class="sites_carreiras" id="sites_carreiras">
             <h2>Sites de Pesquisas de Carreiras</h2>
             <p>
-                <a href="https://www.vagas.com.br/mapa-de-carreiras/cargos">Vagas.com Mapa de Carreiras</a>
+                <a href="https://www.vagas.com.br/mapa-de-carreiras/cargos" target="_blank">Vagas.com Mapa de Carreiras</a>
                 <a href=" ">Mapa de Salários</a>
                 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div>
+        <!-- ===================================================== -->
+        <div class="site_cadastro_curriculo" id="site_cadastro_curriculo">
             <h2>Link Sites de Cadastro de Currículos</h2>
             <p>
                 <p>Titulo -> Linkedin</p>
                 <p>Link do Linkedin</p>
-                <p><a href="https://www.vagas.com.br/"></a>vagas ponto com</p>
-                <p><a href="https://www.linkedin.com/sales/ssi"></a></p>
+                <p><a href="https://www.vagas.com.br/" target="_blank"></a>vagas ponto com</p>
+                <p><a href="https://www.linkedin.com/sales/ssi" target="_blank"></a></p>
                 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
+        <!-- ===================================================== -->
         <div>
             <h2>Link Empresas que fiz cadastro</h2>
             <p>
                 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
+        <!-- ===================================================== -->
         <div>
             <h2>Link Empresas que quero me cadastrar</h2>
             <p>
                 
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div>
+        <!-- ===================================================== -->
+        <div class="agencias_emprego" id="agencias_emprego">
             <h2>Link Agências de Emprego</h2>
             <p>
-                <a href="https://www.vagas.com.br/">Vagas.com</a><br>
+                <a href="https://www.vagas.com.br/" target="_blank">Vagas.com</a><br>
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
-        <div class="freelancer" style="background-color: aquamarine;">
+        <!-- ===================================================== -->
+        <div class="freelancer" id="freelancer" style="background-color: aquamarine;">
             <h2>Link de Plataforma de Serviços Freelancer</h2>
             <p>
-                <a href="https://www.99freelas.com.br/">99freelas</a><br>
+                <a href="https://www.99freelas.com.br/" target="_blank">99freelas</a><br>
                 <a href="https://www.br.freelancer.com/">Freelancer</a><br>
-                <a href="https://www.getninjas.com.br/">GetNinjas</a><br>
-                <a href="https://www.workana.com/">Workana</a><br>
-                <a href="https://www.trampos.co/">Trampos</a><br>
-                <a href="https://www.upwork.com/">UpWork</a><br>
+                <a href="https://www.getninjas.com.br/"target="_blank">GetNinjas</a><br>
+                <a href="https://www.workana.com/" target="_blank">Workana</a><br>
+                <a href="https://www.trampos.co/" target="_blank">Trampos</a><br>
+                <a href="https://www.upwork.com/" target="_blank">UpWork</a><br>
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
+        <!-- ===================================================== -->
         <div>
             <h2> Relatos Aleatórios - Discursos </h2>
             <p>
@@ -539,14 +959,19 @@
             <!-- 100% não tenho -> Sim Tenho Interesse e Posso Aprender qualquer coisa  -->
             <!-- Sou humilde para pedir ajuda / Peço ajuda com o Olhar / Honestidade em dizer que não sabe -->
             </p>
+
+            <br>
+            <a href="#botao_voltar"><button class="btn_voltar_menu">Voltar ao Menu</button></a>
         </div>
     </main>
+    <!-- ===================================================== -->
     <footer>
-        <div>
-            <a>Instagram</a>
-            <a>WhatsApp</a>
-            <a>Linkedin</a>
+        <div class="contatos" id="contatos">
+            <a href="" target="_blank">Instagram</a>
+            <a href="" target="_blank">WhatsApp</a>
+            <a href="" target="_blank">Linkedin</a>
         </div>
-    </footer>    
+    </footer>
+    <!-- ===================================================== -->    
 </body>
 </html>
