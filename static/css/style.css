@@ -13,6 +13,15 @@
 *======================================================================================== 
 */
 
+/* 
+Recursos de Responsividade de Tela: 
+
+Tamanho Largura das DIV -> width: 100vw;
+Tamanho Altura das DIV/Blocos -> heigth: 100vh
+
+*/
+
+
 * {
     /* background-color: #FFF6; */
     /* Não funciona */
@@ -39,15 +48,16 @@ div {
     /* width: 150vh; */
     /* float: left; */
     position: relative;
+    width: 100vw;
     /* margin-right: 20px; */
     /* margin-left: 20px; */
     /* display: contents; */
     /*display: flex;*/ /*esse coloca as div ao lado uma da outra*/
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr 1fr; */
+    /* width: 100%; */
 
-
-    width: 100%;
+    
     border: 1px solid;
     border-color: gray;
     box-shadow: 5px 5px 5px 3px gray;
