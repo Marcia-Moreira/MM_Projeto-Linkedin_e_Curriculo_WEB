@@ -13,15 +13,14 @@
 *======================================================================================== 
 */
 
+/*  */
+
 /* 
 Recursos de Responsividade de Tela: 
-
 Tamanho Largura das DIV -> width: 100vw;
 Tamanho Altura das DIV/Blocos -> heigth: 100vh
-
 */
-
-
+/* ================================================== */
 * {
     /* background-color: #FFF6; */
     /* Não funciona */
@@ -43,7 +42,8 @@ body {
 
 }
 
-div {
+div,
+div div {
     /* rever como colocar a largura responsiva */
     /* width: 150vh; */
     /* float: left; */
@@ -67,6 +67,7 @@ div {
 } 
 
 h1 {
+
     color: whitesmoke;
     text-align: center;
     text-shadow: 5px 5px 5px gray;
@@ -105,7 +106,7 @@ tr {
 }
 
 /* REVER */
-
+/* ================================================== */
 .menu_principal{
     background-color: #DCCFE2;
 }
@@ -146,7 +147,6 @@ tr {
     box-shadow: none;
     margin-right: 50px;
 }
-
 .linkedin_formacao{
     background-color: #D7E3CE;
 }
@@ -180,9 +180,8 @@ tr {
 .soft_skill{
     background-color: #C3BBD9;
 }
-
+/* ================================================== */
 /*! EU PESSOA / MINHA HISTÓRIA/ COMO EU SOU */
-
 .eu_minha_historia{
     background-color: #BFBED7;
 }
@@ -210,10 +209,7 @@ tr {
 .desafios{
     background-color: #D9DAD6;
 }
-
-
-/* ============================================ */
-
+/* ================================================== */
 .btn_voltar_menu {
     background-color: black;
     font-style: oblique;
@@ -228,7 +224,6 @@ tr {
     /* distancia lado de dentro */
     padding: 10px;
 }
-
 .btn_voltar_menu:hover {
     background-color: gray;
     font-style: oblique;
@@ -237,3 +232,8 @@ tr {
     /* rever */
     /* box-shadow: black; */
 }
+/* ================================================== */
+/* ================================================== */
+/* ================================================== */
+/* ================================================== */
+/* ================================================== */

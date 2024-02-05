@@ -1,0 +1,145 @@
+/* Montar estrutura Responsiva CSS */
+
+/* ESQUELETO */
+* {
+    background-color: bisque;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+main {
+    background-color: #f1f1f1;
+}
+header div {
+    background-color: gray;
+    border: 1px;
+    border-color: red;
+    border-style: solid 1px;
+}
+body .div_body_a {
+    border-style: solid 1px;
+}
+footer {
+    border-style: solid 1px;
+}
+/* =========================================================== */
+/* FONTES E TÍTULOS: */
+p {
+    font-size: 18px;
+}
+h1 {
+    color: chocolate;
+    text-align: center;
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+}
+/* =========================================================== */
+.div_header_a p {
+    background-color: aqua;
+}
+/* =========================================================== */
+/* SEÇÃO MENU PRINCIPAL */
+.div_body_a p {
+    background-color: burlywood;
+}
+.div_body_a .menu_principal {
+    background-color: red;
+}
+.div_body_a .menu_principal .assunto {
+    border-color: aqua;
+    /* não está funcionando! */
+}
+.assunto {
+    display: contents;
+    color: gray;
+}
+/* ok menu lado a lado*/
+.menu_principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    /* row-gap: row; */
+    /*! verificar como enfileirar abaixo */
+}
+/* =========================================================== */
+/* SEÇÃO IMAGENS FOTOS */
+.div_body_a .link_fotos {
+    /* display: inline; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    flex: 1;
+}
+.foto {
+    flex: 1;
+    display: inline;
+    /* align-items: center; */
+}
+.foto img {
+    border-radius: 0 15px 0 15px;
+    max-width: 25vw;
+    max-height: 25vh;
+    padding-bottom: 20px;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+/* =========================================================== */
+
+
+/* =========================================================== */
+
+
+/* =========================================================== */
+
+/* =========================================================== */
+
+/* =========================================================== */
+
+/* =========================================================== */
+
+/* =========================================================== */
+
+/* =========================================================== */
+
+/* =========================================================== */
+
+/* =========================================================== */
+
+/* =========================================================== */
+.btn_voltar_menu {
+    background-color: black;
+    font-style: oblique;
+    color: whitesmoke;
+    border-style: 1px solid;
+    border-color: whitesmoke;
+    /* sombreamento das bordas */
+    box-shadow: 5px 5px 5px 3px gray;
+    border-radius: 5px;
+    /* distancia do teto */
+    margin-top: 10px;
+    /* distancia lado de dentro */
+    padding: 10px;
+}
+.btn_voltar_menu:hover {
+    background-color: gray;
+    font-style: oblique;
+    color: black;
+    cursor: pointer;
+    /* rever */
+    /* box-shadow: black; */
+}
+/* =========================================================== */
+.div_footer_a p {
+    background-color: cadetblue;
+}
+/* =========================================================== */
